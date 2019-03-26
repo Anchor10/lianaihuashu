@@ -1,0 +1,346 @@
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 28px;
+}
+.content .l-title {
+  box-sizing: border-box;
+  margin-bottom: 22px;
+  width: 100%;
+  position: relative;
+  padding-left: 15px;
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.content .l-title .l-text {
+  font-size: 22px;
+  font-weight: 600;
+  float: left;
+  margin-right: 10px;
+}
+.content .l-title .l-text:before {
+  content: "";
+  position: absolute;
+  height: 22px;
+  width: 5px;
+  background: #ff5562;
+  border-radius: 22px;
+  left: 0;
+  top: 12px;
+}
+.content .l-title .qgType {
+  height: 43px;
+  width: 537px;
+  float: right;
+}
+.content .l-title .qgType .type {
+  float: left;
+  color: #333;
+  font-size: 22px;
+  margin-right: 61px;
+  cursor: pointer;
+}
+.content .l-title .qgType .ac {
+  color: #f8485e;
+}
+.content .l-title .qgType .typeR {
+  margin-right: 0;
+}
+.content .l-title .l-more {
+  display: block;
+  color: #aaa;
+  float: right;
+  font-size: 15px;
+}
+.content .l-title .l-more:hover {
+  color: #f8485e;
+}
+.content .l-title .l-more .l-text-one {
+  margin-right: -3px;
+}
+.content .floor-one {
+  margin-bottom: 10px;
+}
+.content .floor-one #swiper1 {
+  width: 760px;
+  height: 330px;
+}
+.content .floor-one #swiper1 .swiper-slide {
+  width: 760px;
+}
+.content .floor-one #swiper1 .swiper-slide .pic img {
+  display: block;
+  width: 760px;
+  height: 330px;
+}
+.content .floor-one #swiper1 #pagination1 .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+  margin: 0 8px;
+}
+.content .floor-one #swiper1 #pagination1 .swiper-pagination-bullet-active {
+  background: #f8485e;
+}
+.content .floor-one .news {
+  width: 413px;
+  margin-left: 20px;
+}
+.content .floor-one .news .news-first {
+  border-bottom: 1px dashed #eee;
+}
+.content .floor-one .news .news-second {
+  padding-top: 28px;
+}
+.content .floor-one .news .news-title a {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e9253c;
+  height: 24px;
+  line-height: 24px;
+}
+.content .floor-one .news .news-content {
+  padding-bottom: 26px;
+}
+.content .floor-one .news .news-content a {
+  display: block;
+  float: left;
+  width: 176px;
+  margin-top: 16px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 16px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .floor-one .news .news-content a:hover {
+  color: #f8485e;
+}
+.content .floor-one .news .news-content a:nth-of-type(odd) {
+  width: 215px;
+  margin-right: 4px;
+}
+.content .floor-two .con-left {
+  width: 794px;
+}
+.content .floor-two .con-left .con-list .con-article {
+  width: 362px;
+  border-bottom: #e4e4e4 dashed 1px;
+  margin-bottom: 26px;
+  padding-bottom: 26px;
+  margin-left: 20px;
+}
+.content .floor-two .con-left .con-list .con-article:nth-of-type(even) {
+  margin-left: 45px;
+}
+.content .floor-two .con-left .con-list .con-article:nth-of-type(3),
+.content .floor-two .con-left .con-list .con-article:nth-of-type(4) {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.content .floor-two .con-left .con-list .con-article .article-title {
+  font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content .floor-two .con-left .con-list .con-article .article-title a {
+  color: #333;
+}
+.content .floor-two .con-left .con-list .con-article .article-title a:hover {
+  color: #f8485e;
+}
+.content .floor-two .con-left .con-list .con-article .article-list .article-item {
+  margin-top: 12px;
+  font-size: 15px;
+}
+.content .floor-two .con-left .con-list .con-article .article-list .article-item a {
+  color: #666;
+  display: block;
+  overflow: hidden;
+}
+.content .floor-two .con-left .con-list .con-article .article-list .article-item a:hover {
+  color: #f8485e;
+}
+.content .floor-two .con-left .con-list .con-article .article-list .article-item a .ball {
+  border-radius: 20px;
+  width: 4px;
+  height: 4px;
+  font-size: 12px;
+  background-color: #f8485e;
+  float: left;
+  margin-right: 10px;
+  color: #f8485e;
+  position: relative;
+  top: 8px;
+  left: 2px;
+}
+.content .floor-two .con-left .con-list .con-article .article-list .article-item a .item-text {
+  width: 300px;
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content .floor-two .con-left .con-list .con-article .article-list .article-item a .time {
+  color: #f8485e;
+  margin-left: 3px;
+  float: right;
+}
+.content .floor-two .con-right {
+  width: 348px;
+  margin-right: 20px;
+}
+.content .floor-two .con-right .itembox .item {
+  display: block;
+  height: 88px;
+  border-bottom: #e4e4e4 dashed 1px;
+  margin-bottom: 18px;
+}
+.content .floor-two .con-right .itembox .item:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+.content .floor-two .con-right .itembox .item img {
+  float: left;
+  margin-right: 20px;
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+.content .floor-two .con-right .itembox .item .tit {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.content .floor-two .con-right .itembox .item:hover .tit {
+  color: #f8485e;
+}
+.content .floor-two .con-right .itembox .item .infos .count {
+  float: left;
+  color: #999;
+  font-size: 14px;
+}
+.content .floor-two .con-right .itembox .item .infos .but {
+  width: 95px;
+  font-size: 14px;
+  height: 26px;
+  float: right;
+  text-align: center;
+  border: 1px solid #f8485e;
+  color: #f8485e;
+  font-weight: 700;
+  border-radius: 200px;
+  margin-top: -5px;
+  line-height: 26px;
+  margin-right: 11px;
+}
+.content .floor-three {
+  margin-bottom: 20px;
+}
+.content .floor-three .love-talk {
+  overflow: hidden;
+}
+.content .floor-three .love-talk .talk-category {
+  width: 350px;
+  float: left;
+  margin: 0 25px;
+}
+.content .floor-three .love-talk .talk-category .category-pic {
+  width: 350px;
+  height: 195px;
+}
+.content .floor-three .love-talk .talk-category .category-pic a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.content .floor-three .love-talk .talk-category .category-pic a img {
+  display: block;
+  width: 350px;
+  height: 195px;
+  transition: 0.3s;
+}
+.content .floor-three .love-talk .talk-category .category-pic a p {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  width: 350px;
+  height: 195px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 195px;
+}
+.content .floor-three .love-talk .talk-category .category-pic a:hover img {
+  transform: scale(1.2);
+}
+.content .floor-three .love-talk .talk-category .talk-box {
+  border-top: 1px dashed #e5e5e5;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.content .floor-three .love-talk .talk-category .talk-box:nth-of-type(2) {
+  border-top: 0;
+  padding-top: 10px;
+}
+.content .floor-three .love-talk .talk-category .talk-box .talk-title {
+  overflow: hidden;
+}
+.content .floor-three .love-talk .talk-category .talk-box .talk-title a {
+  display: block;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+  height: 36px;
+  padding-left: 50px;
+  line-height: 36px;
+  background: url(../images/girl-icon.png) left center no-repeat;
+  background-size: 36px 36px;
+}
+.content .floor-three .love-talk .talk-category .talk-box .talk-list .talk-item {
+  margin-top: 15px;
+}
+.content .floor-three .love-talk .talk-category .talk-box .talk-list .talk-item a {
+  display: block;
+  box-sizing: border-box;
+  padding-left: 27px;
+  height: 17px;
+  line-height: 17px;
+  background: url(../images/boy-icon.png) left center no-repeat;
+  background-size: 17px 17px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content .floor-three .love-talk .talk-category .talk-box .talk-list .talk-item a:hover {
+  color: #f8485e;
+}
+.content .floor-four .friend-link {
+  overflow: hidden;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+.content .floor-four .friend-link a {
+  display: block;
+  float: left;
+  margin: 0 20px;
+  color: #666;
+  font-size: 14px;
+}
+.content .floor-four .friend-link a:hover {
+  color: #f8485e;
+}
