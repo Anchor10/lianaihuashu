@@ -143,7 +143,7 @@ footer {
   width: 1200px;
   margin: 0 auto;
   padding-top: 70px;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding-bottom: 70px;
 }
 .foot .foot-left{
@@ -297,9 +297,9 @@ footer {
   display: none;
   position: absolute;
   bottom: 50px;
-  left: 0px;
-  width: 140px;
-  height: 140px;
+  left: -30px;
+  width: 200px;
+  height: 200px;
   background: #fff;
   box-shadow: 0 0 15px 0 rgba(#333,0.1);
   box-sizing: border-box;
@@ -310,6 +310,7 @@ footer {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  border: 1px solid #999;
 }
 .foot .foot-right .qrcode>div .qrcode-box img{
   width: 100%;
