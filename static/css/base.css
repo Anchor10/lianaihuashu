@@ -41,20 +41,20 @@ header {
 }
 .header .logo {
   display: block;
-  width: 130px;
+  width: 176px;
   height: 90px;
   margin-right: 28px;
-  background: url(../images/logo.png) left center no-repeat;
+  background: url(../images/logo1.png) left center no-repeat;
 }
 .header .nav-list .nav-item {
   font-size: 16px;
   display: inline-block;
-  margin: 0 22px;
+  margin: 0 21px;
   color: #333;
   font-weight: bold;
 }
 .header .nav-list .nav-item.on {
-  color: #ff9d00;
+  color: #ff4c6f;
 }
 .header .nav-list .nav-item:hover {
   color: #ff9d00;
@@ -69,27 +69,29 @@ header {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  border: 1px solid #ff9d00;
+  border: 1px solid #ff4c6f;
   margin-left: 30px;
-  
 }
 .header form{
   height: 30px;
+  box-sizing: border-box;
   overflow: hidden;
-  
+  padding-left: 30px;
+  background: url(../images/search.png) 8px center no-repeat;
+  background-size: 18px 18px;
 }
 .header .search .input-text{
   box-sizing: border-box;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   border: 0;
   outline: 0;
   height: 30px;
-  width: 180px;
+  width: 160px;
   line-height: 30px;
   display: block;
   float: left;
-  background: url(../images/search.png) 8px center no-repeat;
-  background-size: 18px 18px;
+  /* background: url(../images/search.png) 8px center no-repeat; */
+  /* background-size: 18px 18px; */
 }
 .header .search .search-btn{
   height: 30px;
@@ -101,7 +103,7 @@ header {
   outline: 0;
   background: transparent;
   border-left: 1px solid #e28c01;
-  background: #ff9d00;
+  background: #ff4c6f;
   color: #fff;
   cursor: pointer;
 }
@@ -133,20 +135,53 @@ header {
   color: #ff9d00;
 }
 footer {
-  height: 230px;
   width: 100%;
-  background: #333333;
+  background: #1a1a1a;
+  padding-bottom: 40px;
 }
 .foot {
   width: 1200px;
   margin: 0 auto;
   padding-top: 70px;
   overflow: hidden;
+  padding-bottom: 70px;
 }
+.foot .foot-left{
+  float: left;
+}
+.foot .foot-left .link-list>li{
+  float: left;
+  width: 160px;
+  text-align: left;
+  font-size: 15px;
+  color: #e8e8e8;
+}
+.foot .foot-left .link-list>li a{
+  color: #e8e8e8;
+}
+.link-item{
+  margin-top: 20px;
+}
+.link-item>li{
+  box-sizing: border-box;
+  padding-right: 10px;
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  color: #c8c8c8;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.link-item>li a{
+  color: #e8e8e8;
+}
+.foot .foot-right{
+  float: right;
+}
+
 .foot .visit-card {
   overflow: hidden;
-  width: 340px;
-  float: left;
+  width: 400px;
 }
 .foot .visit-card .card-left {
   float: left;
@@ -176,11 +211,11 @@ footer {
 }
 .foot .visit-card .card-right a p {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 4px;
-  line-height: 30px;
+  line-height: 28px;
 }
-.foot .qrcode-app {
+/* .foot .qrcode-app {
   float: left;
   width: 100px;
   margin-left: 90px;
@@ -229,4 +264,68 @@ footer {
 .foot .call p {
   font-size: 18px;
   color: #fff;
+} */
+.foot .foot-right .qrcode{
+  margin-top: 40px;
+}
+.foot .foot-right .qrcode>div{
+  display: inline-block;
+  position: relative;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    border: 1px solid #666;
+    color: #fff;
+    background: #444;
+    text-align: center;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.foot .foot-right .qrcode>div:first-child{
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.foot .foot-right .qrcode>div:hover{
+  background: #999;
+}
+.foot .foot-right .qrcode>div:hover .qrcode-box{
+  display: block;
+}
+.foot .foot-right .qrcode>div .qrcode-box{
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  width: 140px;
+  height: 140px;
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(#333,0.1);
+  box-sizing: border-box;
+  z-index:10000;
+  padding: 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.foot .foot-right .qrcode>div .qrcode-box img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.licence{
+  border-top: 1px solid #333;
+  padding-top: 30px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.licence >p {
+  text-align: center;
+  color: #555;
+  font-size: 13px;
+  line-height: 20px;
 }

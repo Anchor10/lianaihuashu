@@ -1,4 +1,5 @@
 $(function(){
+    $("#shouye").addClass("on");
     //轮播图
     var swiper1 = new Swiper('#swiper1', {
         autoplay: {
