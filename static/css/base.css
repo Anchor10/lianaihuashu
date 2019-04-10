@@ -57,7 +57,7 @@ header {
   color: #ff4c6f;
 }
 .header .nav-list .nav-item:hover {
-  color: #ff9d00;
+  color: #ff4c6f;
 }
 .header .search{
   height: 28px;
@@ -102,7 +102,7 @@ header {
   border: 0;
   outline: 0;
   background: transparent;
-  border-left: 1px solid #e28c01;
+  border-left: 1px solid #ff4c6f;
   background: #ff4c6f;
   color: #fff;
   cursor: pointer;
@@ -118,7 +118,7 @@ header {
   background-size: 10px 16px;
 }
 .header .header-right .download a:hover {
-  color: #ff9d00;
+  color: #ff4c6f;
 }
 .header .header-right .login {
   font-size: 16px;
@@ -132,7 +132,7 @@ header {
   background-size: 26px 26px;
 }
 .header .header-right .login a:hover {
-  color: #ff9d00;
+  color: #ff4c6f;
 }
 footer {
   width: 100%;

@@ -61,7 +61,7 @@
   margin-right: -3px;
 }
 .content .floor-one {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .content .floor-one #swiper1 {
   width: 760px;
@@ -124,7 +124,7 @@
   color: #e9253c;
   line-height: 24px;
 }
-.content .floor-one .news .news-content {
+.content .floor-one .news .news-first .news-content {
   padding-bottom: 26px;
 }
 .content .floor-one .news .news-content a {
@@ -284,6 +284,9 @@
 .content .floor-three .love-talk .talk-category .category-pic {
   width: 350px;
   height: 195px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px;
+  overflow: hidden;
 }
 .content .floor-three .love-talk .talk-category .category-pic a {
   display: block;
@@ -313,27 +316,41 @@
   transform: scale(1.2);
 }
 .content .floor-three .love-talk .talk-category .talk-box {
-  border-top: 1px dashed #e5e5e5;
   margin-bottom: 20px;
-  padding-top: 20px;
+  border: 1px solid #eaeaea;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .content .floor-three .love-talk .talk-category .talk-box:nth-of-type(2) {
-  border-top: 0;
   padding-top: 10px;
 }
 .content .floor-three .love-talk .talk-category .talk-box .talk-title {
+  box-sizing: border-box;
   overflow: hidden;
+  height: 26px;
+  padding: 0 10px;
 }
 .content .floor-three .love-talk .talk-category .talk-box .talk-title a {
   display: block;
-  box-sizing: border-box;
-  font-size: 16px;
-  font-weight: bold;
-  height: 36px;
-  padding-left: 50px;
-  line-height: 36px;
-  background: url(../images/girl-icon.png) left center no-repeat;
-  background-size: 36px 36px;
+  float: left;
+  padding: 0 15px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 26px;
+  margin-left: 10px;
+  text-align: center;
+  background: #fdf2e9;
+  font-size: 14px;
+}
+.content .floor-three .love-talk .talk-category .talk-box .talk-title a:first-child{
+  margin-left:0;
+}
+.content .floor-three .love-talk .talk-category .talk-box .talk-list{
+  border-top: 1px dashed #eaeaea;
+  margin-top: 10px;
+  margin: 10px 10px 0;
 }
 .content .floor-three .love-talk .talk-category .talk-box .talk-list .talk-item {
   margin-top: 15px;
