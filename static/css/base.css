@@ -159,6 +159,9 @@ footer {
 .foot .foot-left .link-list>li a{
   color: #e8e8e8;
 }
+.foot .foot-left .link-list>li a:hover{
+  color: #ff4c6f;
+}
 .link-item{
   margin-top: 20px;
 }
