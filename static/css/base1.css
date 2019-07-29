@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.clear {
+  zoom: 1;
+}
+.clear:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.float-l {
+  float: left;
+}
+.float-r {
+  float: right;
+}
+header {
+  border-bottom: 1px solid #eeeeee;
+  box-shadow: 0px 1px 3px #eee;
+}
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 90px;
+  line-height: 90px;
+}
+.header .logo {
+  display: block;
+  width: 130px;
+  height: 90px;
+  margin-right: 28px;
+  background: url(../images/logo.png) left center no-repeat;
+}
+.header .nav-list .nav-item {
+  font-size: 16px;
+  display: inline-block;
+  margin: 0 28px;
+  color: #333;
+  font-weight: bold;
+}
+.header .nav-list .nav-item.on {
+  color: #ff9d00;
+}
+.header .nav-list .nav-item:hover {
+  color: #ff9d00;
+}
+.header .header-right .download {
+  font-size: 16px;
+}
+.header .header-right .download a {
+  color: #333;
+  display: block;
+  padding-left: 18px;
+  background: url(../images/down-icon.png) left center no-repeat;
+  background-size: 10px 16px;
+  font-size: 14px;
+}
+.header .header-right .download a:hover {
+  color: #ff9d00;
+}
+.header .header-right .gongzhong {
+  float: right;
+  width: 110px;
+  position: relative;
+  z-index: 888;
+}
+.header .header-right .gongzhong a {
+  box-sizing: border-box;
+  padding-left: 18px;
+  text-align: center;
+  display: block;
+  float: left;
+  background: url(../images/gongzhong.png) no-repeat left center;
+  background-size: 16px 20px;
+  color: #646464;
+  font-size: 14px;
+}
+.header .header-right .gongzhong a:hover {
+  color: #ff9d00;
+}
+.header .header-right .gongzhong em {
+  width: 138px;
+  height: 138px;
+  position: absolute;
+  top: 87px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+.header .header-right .gongzhong em i {
+  position: absolute;
+  left: 45px;
+  top: 45px;
+  z-index: 11;
+  width: 48px;
+  height: 48px;
+  background: url(../images/sprites.png) no-repeat;
+  background-position: -543px -65px;
+}
+.header .header-right .gongzhong em img {
+  width: 130px;
+  height: 130px;
+  vertical-align: middle;
+  background: #fff;
+  padding: 3px;
+  border: 1px solid #099cda;
+}
+.header .header-right .gongzhong:hover em {
+  display: inline;
+}
+.header .header-right .login {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.header .header-right .login a {
+  color: #333;
+  display: block;
+  padding-left: 34px;
+  background: url(../images/user-icon.png) left center no-repeat;
+  background-size: 26px 26px;
+}
+.header .header-right .login a:hover {
+  color: #ff9d00;
+}
+footer {
+  height: 230px;
+  width: 100%;
+  background: #333333;
+}
+.foot {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+  overflow: hidden;
+}
+.foot .visit-card {
+  overflow: hidden;
+  width: 340px;
+  float: left;
+}
+.foot .visit-card .card-left {
+  float: left;
+}
+.foot .visit-card .card-left a {
+  display: block;
+}
+.foot .visit-card .card-left img {
+  display: block;
+  width: 208px;
+  height: 56px;
+}
+.foot .visit-card .card-left .company a {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.foot .visit-card .card-right {
+  float: left;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #484848;
+}
+.foot .visit-card .card-right a {
+  display: block;
+}
+.foot .visit-card .card-right a p {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 30px;
+}
+.foot .qrcode-app {
+  float: left;
+  width: 100px;
+  margin-left: 90px;
+}
+.foot .qrcode-app img {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
+}
+.foot .qrcode-app p {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.foot .qrcode-wechat {
+  float: left;
+  width: 100px;
+  margin-left: 90px;
+}
+.foot .qrcode-wechat img {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
+}
+.foot .qrcode-wechat p {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.foot .call {
+  float: right;
+  text-align: center;
+  margin-right: 20px;
+  width: 220px;
+}
+.foot .call .call-num {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 60px;
+}
+.foot .call p {
+  font-size: 18px;
+  color: #fff;
+}
